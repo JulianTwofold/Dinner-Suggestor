@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    font-size:22px;
+}
+
+p, label{
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+input{
+    margin-bottom:20px;
+}
+
+button{
+    margin:15px;
+}
+
+.link{
+    color:white;
+    text-decoration: underline;
+}
+
+.success{
+    color:green;
+}
+
+.error{
+    color:red;
+}
+
+.menubar{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    width: 3.5vh;
+    height: 3.5vh;
+}
+
+.menubar img{
+    width:100%;
+    height:100%;
+}
+
+.menubar:hover, .link:hover, button:hover{
+    cursor: pointer;
+}
